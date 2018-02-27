@@ -1,16 +1,15 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ayarlar = require('./ayarlar.json');
 
 
-var prefix = ayarlar.prefix;
+var prefix = '-';
 
 client.on('ready', () => {
   console.log(`Bot ${client.user.tag} adı ile giriş yaptı.`);
 });
 
 client.on('message', msg => {
-if(msg.author.id === ayarlar.id) return;
+if(msg.author.id === '417813703677837313') return;
 if(msg.author.bot) return;
 
 if (!msg.content.startsWith(prefix)) {
@@ -38,4 +37,4 @@ return}
   }
 });
 
-client.login(process.env.NDE3ODEzNzAzNjc3ODM3MzEz.DXdmiw.3gi6sZCTB1b22lHkTzZuA71lL_k);
+client.login('NDE3ODEzNzAzNjc3ODM3MzEz.DXdmiw.3gi6sZCTB1b22lHkTzZuA71lL_k')
