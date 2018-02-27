@@ -38,4 +38,4 @@ return}
   }
 });
 
-client.login(ayarlar.token);
+client.login(process.env.NDE3ODEzNzAzNjc3ODM3MzEz.DXdmiw.3gi6sZCTB1b22lHkTzZuA71lL_k);
