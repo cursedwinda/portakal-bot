@@ -38,4 +38,4 @@ return}
   }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(ayarlar.token);
