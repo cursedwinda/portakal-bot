@@ -37,4 +37,4 @@ return}
   }
 });
 
-client.login('NDE3ODEzNzAzNjc3ODM3MzEz.DXdmiw.3gi6sZCTB1b22lHkTzZuA71lL_k')
+client.login(process.env.BOT_TOKEN)
